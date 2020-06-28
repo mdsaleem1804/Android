@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/lefthome"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/left1"
+            android:title="All Labels" />
+        <item
+            android:id="@+id/left2"
+            android:title="Top 50 News" />
+        <item
+            android:id="@+id/left3"
+            android:title="Proceedings" />
+        <item
+        android:id="@+id/left4"
+        android:title="Pay Order" />
+        <item
+            android:id="@+id/left5"
+            android:title="Results" />
+        <item
+            android:id="@+id/left6"
+            android:title="School Calendar" />
+        <item
+            android:id="@+id/left7"
+            android:title="Books - All Std" />
+
+        <item
+            android:id="@+id/left8"
+            android:title="CPS ACCOUNT SLIP" />
+
+        <item
+            android:id="@+id/left9"
+            android:title="GPF ACCOUNT SLIP" />
+
+        <item
+            android:id="@+id/left10"
+            android:title="PAY SLIP" />
+
+
+        <item
+            android:id="@+id/left11"
+            android:title="EMIS" />
+    </group>
+
+
+
+</menu>

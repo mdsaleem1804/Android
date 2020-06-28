@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.busapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.busapp.Adminaddfr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.busapp.Adminlogin"
+            android:label="@string/title_activity_adminlogin" >
+        </activity>
+        <activity
+            android:name="com.example.busapp.Adminadd"
+            android:label="@string/title_activity_adminadd" >
+        </activity>
+        <activity
+            android:name="com.example.busapp.MainActivity"
+            android:label="@string/title_activity_adminaddfr" >
+        </activity>
+        <activity
+            android:name="com.example.busapp.Adminaddto"
+            android:label="@string/title_activity_adminaddto" >
+        </activity>
+        <activity
+            android:name="com.example.busapp.Userdecide"
+            android:label="@string/title_activity_userdecide" >
+        </activity>
+        <activity
+            android:name="com.example.busapp.Userfrom"
+            android:label="@string/title_activity_userfrom" >
+        </activity>
+        <activity
+            android:name="com.example.busapp.Userto"
+            android:label="@string/title_activity_userto" >
+        </activity>
+    </application>
+
+</manifest>

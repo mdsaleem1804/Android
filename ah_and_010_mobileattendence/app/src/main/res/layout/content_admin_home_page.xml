@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AdminHomePage"
+    android:background="@mipmap/bg1"
+    tools:showIn="@layout/activity_admin_home_page">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/aa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@mipmap/student_header"
+            android:onClick="add_stud"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimary"
+            android:onClick="add_stud"
+            android:text="ADD STUDENT"
+            android:layout_below="@+id/aa"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:background="@color/colorPrimary"
+            android:onClick="view_stud"
+            android:text="VIEW STUDENTS"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:background="@color/colorPrimary"
+            android:onClick="add_staff"
+            android:text="ADD STAFF"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/d"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:background="@color/colorPrimary"
+            android:onClick="list_staff"
+            android:text="VIEW STAFF"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

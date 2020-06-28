@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tcssnellai.ag_and_004_womenscheme"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tcssnellai.ag_and_004_womenscheme.HomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.AdminLogin" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.AdminMainPage" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.AdminSchemeEntry" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.AdminSchemeEdit" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.ListSchemes" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.Login" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.Registration" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.UserMainPage" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.GeneralSchemes" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.ListSchemesByUser" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.ListNewSchemes" >
+        </activity>
+        <activity android:name="com.tcssnellai.ag_and_004_womenscheme.GovernmentSites"></activity>
+    </application>
+
+</manifest>

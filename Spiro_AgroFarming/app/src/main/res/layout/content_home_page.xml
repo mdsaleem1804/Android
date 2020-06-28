@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+
+        android:padding="16dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@mipmap/bgagro1"
+            />
+
+        <Button
+        android:id="@+id/a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:onClick="cereals"
+        android:text="Cereals"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="pulses"
+            android:text="Pulses"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="millets"
+            android:text="Millets"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/d"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="cotton"
+            android:text="Cotton"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="sugarcane"
+            android:text="Sugarcane"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rightmenu1"
+        android:orderInCategory="1"
+        android:title="@string/action_right1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rightmenu2"
+        android:orderInCategory="2"
+        android:title="@string/action_right2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rightmenu3"
+        android:orderInCategory="3"
+        android:title="@string/action_right3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rightmenu4"
+        android:orderInCategory="4"
+        android:title="@string/action_right4"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rightmenu5"
+        android:orderInCategory="5"
+        android:title="@string/action_right5"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rightmenu6"
+        android:orderInCategory="6"
+        android:title="@string/action_right6"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rightmenu7"
+        android:orderInCategory="7"
+        android:title="@string/action_right7"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rightmenu8"
+        android:orderInCategory="8"
+        android:title="@string/action_right8"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rightmenu9"
+        android:orderInCategory="9"
+        android:title="@string/action_right9"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rightmenu10"
+        android:orderInCategory="10"
+        android:title="@string/action_right10"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rightmenu11"
+        android:orderInCategory="10"
+        android:title="@string/action_right11"
+        app:showAsAction="never" />
+</menu>

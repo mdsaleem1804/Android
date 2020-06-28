@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "588270531471",
+    "firebase_url": "https://kalvikuralofficial-1fce9.firebaseio.com",
+    "project_id": "kalvikuralofficial-1fce9",
+    "storage_bucket": "kalvikuralofficial-1fce9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588270531471:android:fb611513f383d51b",
+        "android_client_info": {
+          "package_name": "com.kalvikural.www.kalvikuralofficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588270531471-bd94u52e55mjv0qtvq4v55t3ee3n7vgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJDqPyp8R3we_4GwNYW-HzPUepTZ4NYT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

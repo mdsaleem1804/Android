@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg5" >
+
+    <Button
+        android:id="@+id/fbtnstoragelevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/gradient_drawable1"
+        android:onClick="twostoragelevel"
+        android:text="CREATE QRCODE" />
+
+    <Button
+        android:id="@+id/fbtnprivatemessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fbtnstoragelevel"
+        android:layout_alignRight="@+id/fbtnstoragelevel"
+        android:layout_below="@+id/fbtnstoragelevel"
+        android:layout_marginTop="30dp"
+        android:text="SCAN QRCODE"
+        android:background="@drawable/gradient_drawable1"
+        android:onClick="privatemessage" />
+
+   <!--  <Button
+        android:id="@+id/fbtndocumentauthentication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fbtnprivatemessage"
+        android:layout_alignRight="@+id/fbtnprivatemessage"
+        android:layout_centerVertical="true"
+        android:text="Document Authentication"
+        android:background="@drawable/gradient_drawable1"
+        android:onClick="documentauthentication" />
+
+    <Button
+        android:id="@+id/fbtn_recievedmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fbtndocumentauthentication"
+        android:layout_alignRight="@+id/fbtndocumentauthentication"
+        android:layout_below="@+id/fbtndocumentauthentication"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/gradient_drawable1"
+        android:text="Recieved Message" />
+ -->
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button_insert"
+        android:layout_below="@+id/button_retrieve"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/mobile" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btncaptureorselect"
+        android:layout_marginTop="26dp"
+        android:onClick="galleryview"
+        android:text="GALLERY" />
+
+    <Button
+        android:id="@+id/btncaptureorselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGallery"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/button_insert"
+        android:onClick="camera"
+        android:text="CAM" />
+
+    <Button
+        android:id="@+id/button_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_retrieve"
+        android:layout_alignBottom="@+id/button_retrieve"
+        android:layout_centerHorizontal="true"
+        android:onClick="insert"
+        android:text="INS" />
+
+    <Button
+        android:id="@+id/button_retrieve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btncaptureorselect"
+        android:layout_toRightOf="@+id/button_insert"
+        android:onClick="retrieve"
+        android:text="VIEW" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btncaptureorselect"
+        android:layout_alignParentLeft="true"
+        android:onClick="select"
+        android:text="SEL" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_image"
+        android:layout_marginTop="76dp"
+        android:text="Tutorial Specially Designed For U Please Learn Thorughly" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnGallery"
+        android:layout_alignBottom="@+id/btnGallery"
+        android:layout_alignLeft="@+id/imageView_image"
+        android:layout_marginLeft="14dp"
+        android:onClick="clear"
+        android:text="CLEAR" />
+
+</RelativeLayout>

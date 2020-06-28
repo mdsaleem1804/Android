@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.and_af_donor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+ 
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.and_af_donor.ViewList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddContacts"
+            android:label="Donor Information Form" />
+        <activity android:name=".DialogOptions" />
+        <activity
+            android:name=".DonorDescription"
+            android:label="Donor Information" />
+        <activity
+            android:name=".Edit_Or_Delete_Authication"
+            android:label="Verify password" />
+        <activity
+            android:name=".Login"
+            android:label="Login form" >
+        </activity>
+        <activity
+            android:name="com.example.and_af_donor.MainActivity"
+            android:label="Admin" >
+        </activity>
+          <activity
+            android:name="com.example.and_af_donor.NeedLocation"
+            android:label="Location" >
+        </activity>
+               <activity
+            android:name="com.example.and_af_donor.Home"
+            android:label="List" >
+        </activity>
+    </application>
+
+</manifest>

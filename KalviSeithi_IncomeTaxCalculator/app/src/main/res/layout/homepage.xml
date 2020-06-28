@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_background">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginStart="108dp">
+
+
+        <TableRow
+            android:id="@+id/tableRow1a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_it_slab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/button7"
+                android:background="@drawable/buttonshape"
+                android:onClick="btn_go_itforms"
+                android:text="INCOME TAX SLAB"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+            <Button
+                android:id="@+id/btn_it_forms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INCOME TAX FORMS"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:background="@drawable/ripple_effect"
+/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_refund_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHECK REFUND STATUS"
+            android:textSize="22dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_button_selector"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    <Button
+        android:id="@+id/btn_it_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INCOMETAX NEWS"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_it_mini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INCOME TAX MINI"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:onClick="mini"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

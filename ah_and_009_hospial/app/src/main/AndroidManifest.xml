@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hellotamila.ah_and_009_hospial">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hospital_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/hospital_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DoctorSelection"></activity>
+        <activity android:name=".SendProblem"></activity>
+        <activity android:name=".Medical"></activity>
+        <activity android:name=".Webform"></activity>
+        <activity android:name=".Registration"></activity>
+        <activity android:name=".ListProblems"></activity>
+    </application>
+
+</manifest>

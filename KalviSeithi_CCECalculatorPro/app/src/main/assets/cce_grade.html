@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+		.underline {
+    text-decoration: underline;
+	font-weight: bold;
+	color: green;
+}
+		</style>
+
+    <script>
+		  function NextFocus() {
+			var xFaLength = document.getElementById("f_fa").value.length;
+			if(xFaLength>=1)
+			{
+			document.getElementById("f_sa").focus();
+			}
+			}
+            function myFunction() {
+                var xFA = parseInt(document.getElementById("f_fa").value);
+                var xSA = parseInt(document.getElementById("f_sa").value);
+                var xTotal = xFA + xSA;
+                var xTotalGrade="";
+                document.getElementById("f_fa_table").innerHTML =xFA;
+                document.getElementById("f_sa_table").innerHTML =xSA;
+                document.getElementById("f_total").innerHTML =xTotal;
+                if (xTotal >=91) {
+                   xTotalGrade= "A1";
+                }
+                  else if (xTotal >=81) {
+                   xTotalGrade= "A2";
+                }
+                   else if (xTotal >=71) {
+                   xTotalGrade= "B1";
+                }
+                   else  if (xTotal >=61) {
+                   xTotalGrade= "B2";
+                }
+                    else  if (xTotal >=51) {
+                   xTotalGrade= "C1";
+                }
+
+                  else if (xTotal >=41) {
+                   xTotalGrade= "C2";
+                }
+
+                  else if (xTotal >=33) {
+                   xTotalGrade= "D";
+                }
+                     else if (xTotal >=21) {
+                   xTotalGrade= "E1";
+                }
+                else {
+                   xTotalGrade= "E2";
+                      }
+
+
+                      document.getElementById("f_total_grade").innerHTML =xTotalGrade;
+
+					  var xFaGrade="";
+					   if (xFA>=37 && xFA<=40) {
+                       xFaGrade = "A1";
+                         }
+				      else if(xFA>=33 && xFA<=36) {
+					  xFaGrade = "A2";
+                         }
+						 else if(xFA>=29 && xFA<=32) {
+					  xFaGrade = "B1";
+                         }
+						 else if(xFA>=25 && xFA<=28) {
+					  xFaGrade = "B2";
+                         }
+						 else if(xFA>=21 && xFA<=24) {
+					  xFaGrade = "C1";
+                         }
+						 else if(xFA>=17 && xFA<=20) {
+					  xFaGrade = "C2";
+                         }
+						 else if(xFA>=13 && xFA<=16) {
+					  xFaGrade = "D";
+                         }
+                      else if(xFA>=9 && xFA<=12) {
+					  xFaGrade = "E1";
+                         }
+						else if(xFA<=8 && xFA>=0) {
+					  xFaGrade = "E2";
+                         }
+						 else
+
+						 {
+						 xFaGrade = "INVALID ENTRY";
+                         }
+					   document.getElementById("f_fa_grade").innerHTML =xFaGrade;
+					   var xSaGrade="";
+					   if (xSA>=55 && xSA<=60) {
+                       xSaGrade = "A1";
+                         }
+							else if(xSA>=49 && xSA<=54) {
+					  xSaGrade = "A2";
+                         }
+						 else if(xSA>=43 && xSA<=48) {
+					  xSaGrade = "B1";
+                         }
+						 else if(xSA>=37 && xSA<=42) {
+					  xSaGrade = "B2";
+                         }
+						 else if(xSA>=31 && xSA<=36) {
+					  xSaGrade = "C1";
+                         }
+						 else if(xSA>=25 && xSA<=30) {
+					  xSaGrade = "C2";
+                         }
+						 else if(xSA>=20 && xSA<=24) {
+					  xSaGrade = "D";
+                         }
+						 else if(xSA>=13 && xSA<=19) {
+					  xSaGrade = "E1";
+                         }
+						 else if(xSA>=0 && xSA<=12) {
+					  xSaGrade = "E2";
+                         }
+						 else
+
+						 {
+						 xSaGrade = "INVALID ENTRY";
+                         }
+
+
+					  document.getElementById("f_sa_grade").innerHTML =xSaGrade;
+
+					    var xFaM2 = parseInt(document.getElementById("f_fa").value);
+                var xSaM2 = parseInt(document.getElementById("f_sa").value);
+                var xTotalM2 = xFaM2 + xSaM2;
+
+                var xTotalM2Grade="";
+                document.getElementById("f_fa_table_m2").innerHTML =xFaM2;
+                document.getElementById("f_sa_table_m2").innerHTML =xSaM2;
+                document.getElementById("f_total_m2_m2").innerHTML =xTotalM2;
+                if (xTotalM2 >=91 && xTotalM2<=100) {
+                   xTotalM2Grade= "A";
+                }
+                  else if (xTotalM2 >=81 && xTotalM2<=90) {
+                   xTotalM2Grade= "A";
+                }
+                   else if (xTotalM2 >=71 && xTotalM2<=80) {
+                   xTotalM2Grade= "A";
+                }
+                   else  if (xTotalM2 >=61 && xTotalM2<=70) {
+                   xTotalM2Grade= "B";
+                }
+                    else  if (xTotalM2 >=51 && xTotalM2<=60) {
+                   xTotalM2Grade= "B";
+                }
+
+                  else if (xTotalM2 >=41 && xTotalM2<=50) {
+                   xTotalM2Grade= "B";
+                }
+
+                  else if (xTotalM2 >=33 && xTotalM2<=40) {
+                   xTotalM2Grade= "C";
+                }
+                     else if (xTotalM2 >=21 && xTotalM2<=32) {
+                   xTotalM2Grade= "D";
+                }
+				else if (xTotalM2 >=20 && xTotalM2<=0) {
+                   xTotalM2Grade= "E";
+                }
+                else {
+                   xTotalM2Grade= "INVALID ENTRY";
+                      }
+
+
+                      document.getElementById("f_total_m2_m2_grade").innerHTML =xTotalM2Grade;
+
+					  var xFaM2Grade="";
+					   if (xFaM2>=37 && xFaM2<=40) {
+                       xFaM2Grade = "A";
+                         }
+				      else if(xFaM2>=33 && xFaM2<=36) {
+					  xFaM2Grade = "A";
+                         }
+						 else if(xFaM2>=29 && xFaM2<=32) {
+					  xFaM2Grade = "A";
+                         }
+						 else if(xFaM2>=25 && xFaM2<=28) {
+					  xFaM2Grade = "B";
+                         }
+						 else if(xFaM2>=21 && xFaM2<=24) {
+					  xFaM2Grade = "B";
+                         }
+						 else if(xFaM2>=17 && xFaM2<=20) {
+					  xFaM2Grade = "B";
+                         }
+						 else if(xFaM2>=13 && xFaM2<=16) {
+					  xFaM2Grade = "C";
+                         }
+                      else if(xFaM2>=9 && xFaM2<=12) {
+					  xFaM2Grade = "D";
+                         }
+						else if(xFaM2<=8 && xFaM2>=0) {
+					  xFaM2Grade = "E";
+                         }
+						 else
+
+						 {
+						 xFaM2Grade = "INVALID ENTRY";
+                         }
+					   document.getElementById("f_fa_grade_m2").innerHTML =xFaM2Grade;
+					   var xSaM2Grade="";
+					   if (xSaM2>=55 && xSaM2<=60) {
+                       xSaM2Grade = "A";
+                         }
+							else if(xSaM2>=49 && xSaM2<=54) {
+					  xSaM2Grade = "A";
+                         }
+						 else if(xSaM2>=43 && xSaM2<=48) {
+					  xSaM2Grade = "A";
+                         }
+						 else if(xSaM2>=37 && xSaM2<=42) {
+					  xSaM2Grade = "B";
+                         }
+						 else if(xSaM2>=31 && xSaM2<=36) {
+					  xSaM2Grade = "B";
+                         }
+						 else if(xSaM2>=25 && xSaM2<=30) {
+					  xSaM2Grade = "B";
+                         }
+						 else if(xSaM2>=20 && xSaM2<=24) {
+					  xSaM2Grade = "C";
+                         }
+						 else if(xSaM2>=13 && xSaM2<=19) {
+					  xSaM2Grade = "D";
+                         }
+						 else if(xSaM2>=0 && xSaM2<=12) {
+					  xSaM2Grade = "E";
+                         }
+						 else
+
+						 {
+						 xSaM2Grade = "INVALID ENTRY";
+                         }
+
+
+					  document.getElementById("f_sa_grade_m2").innerHTML =xSaM2Grade;
+
+            }
+             function reset() {
+               document.getElementById("cce").reset();
+
+            }
+        </script>
+</head>
+<body>
+
+<form action="step2.php" method="post" name="cce" id="cce">
+    <div class="panel panel-success">
+        <div class="panel-heading text-center">CCE GRADE CALCULATOR
+        </div>
+
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-xs-6">
+                            <label>FA MARK(Max 40)</label>
+                            <input type="number" class="form-control" name="f_fa" id="f_fa" onkeypress="NextFocus()" required>
+                        </div>
+                        <div class="col-xs-6">
+                            <label>SA MARK(Max 60)</label>
+                            <input type="number" class="form-control" name="f_sa" id="f_sa" min="1" max="999" required>
+
+                        </div>
+                    </div>
+
+                    </br>
+                    <div class="row" >
+                        <div class="col-xs-6">
+                            <p  class="btn btn-danger" onclick="reset()" >RESET </p>
+                        </div>
+                        <div class="col-xs-6">
+                            <p  class="btn btn-info" onclick="myFunction()" >CALCULATE </p>
+                        </div>
+                    </div>
+
+
+                </div><!-- Form-Group !-->
+            </div><!-- Panel Body !-->
+        </div><!-- Panel !-->
+
+
+        <div class="container">
+            <h3>METHOD 1(A1,A2,B1..) </H3>
+            <table class="table">
+                <tr><th></th>
+                    <th>MARK</th>
+                    <th>GRADE</th>
+                    <tbody>
+                    <tr>
+                        <td>FA</td>
+                        <td class="underline" id="f_fa_table"></td>
+                        <td class="underline" id="f_fa_grade"></td>
+                    </tr>
+                    <tr>
+                        <td>SA</td>
+                        <td class="underline" id="f_sa_table"></td>
+                        <td class="underline" id="f_sa_grade"></td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL</td>
+                        <td  class="underline" id="f_total"></td>
+                        <td  class="underline" id="f_total_grade"></td>
+                    </tr>
+                    </tbody>
+            </table>
+        </div>
+
+
+        <div class="container">
+            <h3>METHOD 2(A,B,C...) </H3>
+            <table class="table">
+                <tr><th></th>
+                    <th>MARK</th>
+                    <th>GRADE</th>
+                    <tbody>
+                    <tr>
+                        <td>FA</td>
+                        <td class="underline" id="f_fa_table_m2"></td>
+                        <td class="underline" id="f_fa_grade_m2"></td>
+                    </tr>
+                    <tr>
+                        <td>SA</td>
+                        <td class="underline" id="f_sa_table_m2"></td>
+                        <td class="underline" id="f_sa_grade_m2"></td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL</td>
+                        <td  class="underline" id="f_total_m2_m2"></td>
+                        <td  class="underline" id="f_total_m2_m2_grade"></td>
+                    </tr>
+                    </tbody>
+            </table>
+        </div>
+</form>

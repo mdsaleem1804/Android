@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TET Comparison Sheet</string>
+    <string name="admob_app_id">ca-app-pub-3940386510395156~3477576208</string>
+    <string name="ad_id_banner">ca-app-pub-3940386510395156/1753430993</string>
+    <string name="ad_id_interstitial">ca-app-pub-3940386510395156/8199597452</string>
+    <string name="paper_1">PAPER 1</string>
+    <string name="enter_your_mark_details">Enter Your mark Details</string>
+    <string name="view_comparison_sheet">View Comparison Sheet</string>
+    <string name="paper_2">PAPER 2</string>
+    <string name="string_view_comparison_sheet" />
+    <string name="weightage_calculator">WEIGHTAGE CALCULATOR</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_expandable_list_adapter">ExpandableListAdapter</string>
+
+</resources>

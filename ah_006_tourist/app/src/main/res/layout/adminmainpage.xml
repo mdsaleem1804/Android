@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:padding="16dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#b45705"
+            android:text="MAP"
+            android:id="@+id/btnAdminSetRoute"
+            android:visibility="gone"
+            android:textColor="#fff" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AA00FF"
+            android:text="ONLINE BUS SERVICES"
+            android:onClick="online_bus"
+            android:textColor="#fff" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AA00FF"
+            android:text="BUS SERVICES"
+android:onClick="bus"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#b45705"
+            android:text="ADD HOTEL DETAILS"
+        android:onClick="hotel"
+            android:textColor="#fff" />
+
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#AA00FF"
+        android:text="ADD PLACES DETAILS"
+       android:onClick="places"
+        android:textColor="#fff" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#b45705"
+            android:onClick="listbus"
+            android:text="LIST BUS"
+            android:textColor="#fff" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AA00FF"
+           android:onClick="goback"
+            android:text="GO BACK"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+

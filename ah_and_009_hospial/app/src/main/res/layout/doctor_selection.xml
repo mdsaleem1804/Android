@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DoctorSelection">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pediatrics"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="doctor_selection"
+                android:tag="PEDIATRICS"
+                android:background="@mipmap/pediatrics" />
+
+            <Button
+                android:id="@+id/ortho"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="ORTHO"
+                android:onClick="doctor_selection"
+                android:background="@mipmap/ortho" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cardiology"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/cardiology"
+            android:onClick="doctor_selection"
+            android:tag="CARDIOLOGY" />
+
+        <Button
+            android:id="@+id/dental"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="doctor_selection"
+            android:layout_gravity="right"
+            android:tag="DENTAL"
+            android:background="@mipmap/dental" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginTop="75dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/neurology"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="NEUROLOGY"
+                android:onClick="doctor_selection"
+                android:background="@mipmap/neurolgy" />
+
+            <Button
+                android:id="@+id/gyn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="doctor_selection"
+                android:tag="GYNECOLOGIST"
+                android:layout_gravity="right"
+                android:background="@mipmap/gyn" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:layout_marginTop="50dp"
+            android:textSize="50dp"
+            android:visibility="gone"
+            android:text="NEXT" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

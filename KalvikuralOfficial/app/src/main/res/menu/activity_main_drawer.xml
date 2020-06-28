@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/lefthome"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/left1"
+            android:title="NEET Exam Materials" />
+        <item
+            android:id="@+id/left2"
+                android:title="10th Maths Study Materials" />
+        <item
+            android:id="@+id/left3"
+            android:title="11th Study Materials" />
+        <item
+            android:id="@+id/left4"
+            android:title="12TH Physics Materials" />
+        <item
+            android:id="@+id/left5"
+            android:title="12th Public Exam Answer Key" />
+        <item
+            android:id="@+id/left6"
+            android:title="10th Slow Learners Guide" />
+        <item
+            android:id="@+id/left7"
+            android:title="12th Slow Learners Guide" />
+
+        <item
+            android:id="@+id/left8"
+            android:title="PG TRB All Subject Study Materials" />
+
+    </group>
+
+
+
+</menu>

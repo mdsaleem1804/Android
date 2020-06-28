@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ag_and_22_medical"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ag_and_22_medical.Admin_Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ag_and_22_medical.Advance"
+            android:label="ADVANCE" >
+        </activity>
+        <activity
+            android:name="com.example.ag_and_22_medical.IpAdmission"
+            android:label="IP ADMISSION" >
+        </activity>
+        <activity
+            android:name="com.example.ag_and_22_medical.PatientRegistration"
+            android:label="PATIENT REGISTRATION" >
+        </activity>
+        <activity android:name="com.example.ag_and_22_medical.HomePage" >
+        </activity>
+        <activity android:name="com.example.ag_and_22_medical.ListPatients"></activity>
+        <activity android:name="com.example.ag_and_22_medical.ListAdvance"></activity>
+        <activity android:name="com.example.ag_and_22_medical.ListIpAdmission"></activity>
+    </application>
+
+</manifest>

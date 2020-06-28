@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bus App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+     <string-array name="area">
+        <item>tirunelveli</item>
+        <item>junction</item>
+        <item>town</item>
+        <item>surandai</item>
+        <item>alangulam</item>
+        <item>tenkasi</item>
+    </string-array>
+    
+    <string name="title_activity_adminlogin">Adminlogin</string>
+    <string name="title_activity_adminadd">Adminadd</string>
+    <string name="title_activity_adminaddfr">Adminaddfr</string>
+    <string name="title_activity_adminaddto">Adminaddto</string>
+    <string name="title_activity_userdecide">Userdecide</string>
+    <string name="title_activity_userfrom">Userfrom</string>
+    <string name="title_activity_userto">Userto</string>
+
+</resources>

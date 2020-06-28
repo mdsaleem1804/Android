@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CCECalculatorPro</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_calculation">CALCULATION</string>
+    <string name="title_individual">INDIVIDUAL</string>
+    <string name="title_annual">ANNUAL</string>
+    <string name="title_records">RECORDS</string>
+    <string name="ad_id_banner">ca-app-pub-3940386510395156/7418910009</string>
+    <string name="ad_id_interstitial">ca-app-pub-3940386510395156/2555086829</string>
+</resources>

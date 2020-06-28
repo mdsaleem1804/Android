@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ag_and_008_smallscale"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ag_and_008_smallscale.HomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.MainActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.VendorRegistration" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.VendorLogin" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.VendorMainPage" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.AddNewProduct" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.UserRegistration" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.UserLogin" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.UserMainPage" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.ItemFirstFloorHome" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.CatalogActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.ProductDetailsActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.ShoppingCartActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.GpsSettings" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.UserFloor" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.ListVendors" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.ListProducts" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.ListCart" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.ItemSecondFloorHome" >
+        </activity>
+        <activity android:name="com.example.ag_and_008_smallscale.EditProduct" >
+        </activity>
+    </application>
+
+</manifest>

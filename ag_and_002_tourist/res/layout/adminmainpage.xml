@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnAdminSetRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAddPlaces"
+        android:layout_alignRight="@+id/btnAddPlaces"
+        android:layout_below="@+id/btnAddPlaces"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/gradient_drawable2"
+        android:text="MAP"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnGetBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAddHotel"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="GET BUDGET DETAILS"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fbtn_addbusservices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAddPlaces"
+        android:layout_alignRight="@+id/btnAddPlaces"
+        android:layout_below="@+id/btnAddPlaces"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/gradient_drawable2"
+        android:text="BUS SERVICES" />
+
+    <Button
+        android:id="@+id/btnAddHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/gradient_drawable2"
+        android:text="ADD HOTEL DETAILS" />
+
+    <Button
+        android:id="@+id/btnAddPlaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAddHotel"
+        android:layout_alignRight="@+id/btnAddHotel"
+        android:layout_below="@+id/btnAddHotel"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gradient_drawable2"
+        android:text="ADD PLACES" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fbtn_addbusservices"
+        android:layout_alignRight="@+id/fbtn_addbusservices"
+        android:layout_below="@+id/fbtn_addbusservices"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/gradient_drawable2"
+        android:onClick="listbus"
+        android:text="LIST BUS" />
+
+    <Button
+        android:id="@+id/btnAdminPageBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/gradient_drawable2"
+        android:text="GO BACK" />
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#124C23">
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/adtop">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/ad_id_banner" />
+ </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cce_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft= "@drawable/cce_grade"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/adtop"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="CCE Grade Calculation"
+        android:onClick="fn_cce_grade"
+        android:background="#124C23"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_cce_individual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:drawableLeft= "@drawable/cce_individual"
+        android:text="CCE Individual Calculation"
+        android:background="#124C23"
+        android:onClick="fn_cce_individual"
+        android:layout_below="@+id/btn_cce_grade"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_cce_annaual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CCE Annual Calculation"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:drawableLeft= "@drawable/cce_annual"
+        android:background="#124C23"
+        android:onClick="fn_cce_annual"
+        android:layout_below="@+id/btn_cce_individual"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_cce_useful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_cce_annaual"
+        android:text="CCE Useful Records"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:drawableLeft= "@drawable/cce_records"
+        android:background="#124C23"
+        android:onClick="fn_cce_useful"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:drawableLeft= "@drawable/cce_exit"
+        android:background="#124C23"
+        android:onClick="fn_exit"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btn_cce_classwise"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_cce_classwise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="CCE Class Wise Calculation"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:drawableLeft= "@drawable/cce_classwise"
+        android:background="#124C23"
+        android:onClick="fn_class_wise"
+        android:layout_below="@+id/btn_cce_useful"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

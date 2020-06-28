@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gps"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/fedtLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fedtLongtitude"
+        android:ems="10"
+        android:hint="LONGTITUDE" />
+
+    <EditText
+        android:id="@+id/fedtLongtitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:ems="10"
+        android:hint="LATITUDE" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/fbtnGetLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:background="@color/bisque"
+        android:onClick="getlocation"
+        android:text="GET" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fedtLatitude"
+        android:layout_marginTop="21dp"
+        android:background="@color/antiquewhite"
+        android:onClick="drivergpsupdate"
+        android:text="UPDATE" />
+
+</RelativeLayout>

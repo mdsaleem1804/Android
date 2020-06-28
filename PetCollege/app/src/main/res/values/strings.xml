@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PetCollege</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_admin_home_page">AdminHomePage</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_comment_for_news">CommentForNews</string>
+</resources>

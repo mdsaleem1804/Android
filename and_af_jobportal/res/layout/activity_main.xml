@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="25dp"
+    android:background="@drawable/jobportal1"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/blueback"
+        android:text="ADMIN" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="188dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blueback"
+        android:onClick="js_emphome"
+        android:text="EMPLOYER" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="188dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blueback"
+        android:onClick="js_home"
+        android:text="JOBSSEEKER" />
+
+</LinearLayout>

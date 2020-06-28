@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IncomeTaxCalculator</string>
+    <string name="str_btn1">CHECK REFUND STATUS</string>
+    <string name="title_activity_grid__home_page">Grid_HomePage</string>
+</resources>

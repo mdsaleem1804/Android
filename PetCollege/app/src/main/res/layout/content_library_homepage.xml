@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:padding="16dp">
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:onClick="p_add_books"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:text="ADD BOOK"/>
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:onClick="p_issue_books"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:text="ISSUE BOOK"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:onClick="p_return_book"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:text="RETURN BOOK"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:onClick="p_list_issue_book"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:text="ISSUED BOOKS"/>
+    </LinearLayout>
+</ScrollView>

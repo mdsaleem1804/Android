@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "168316712098",
+    "firebase_url": "https://kalviseithi-eeb5b.firebaseio.com",
+    "project_id": "kalviseithi-eeb5b",
+    "storage_bucket": "kalviseithi-eeb5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168316712098:android:836f83be599de25e",
+        "android_client_info": {
+          "package_name": "com.kalviseithi.official"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168316712098-64ju1f2gdhcgqi8btdn8r77svb693l4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1raaEdEWi41h3McF1uvy-ddOk9Pcd21U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MDM - SMS - TAMILNADU</string>
+    <string name="title_activity_home_page">MDM - SMS - TAMILNADU</string>
+    <string name="admob_app_id">ca-app-pub-3940386510395156~4827977396</string>
+    <string name="ad_id_banner">ca-app-pub-3940386510395156/7262569044</string>
+    <string name="ad_id_interstitial">ca-app-pub-3940386510395156/3492637005</string>
+</resources>

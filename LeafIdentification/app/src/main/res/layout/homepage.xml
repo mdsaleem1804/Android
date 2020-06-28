@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:background="@drawable/leafbg">
+
+    <Button
+        android:id="@+id/btn_leaf_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SET LEAF[GALLERY]"
+        android:textColor="@color/colorPrimary"
+        android:background="?android:attr/selectableItemBackground"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/btn_leaf_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="SET LEAF[CAMERA]"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btn_leaf_match"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="MATCH LEAF"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+
+</LinearLayout>

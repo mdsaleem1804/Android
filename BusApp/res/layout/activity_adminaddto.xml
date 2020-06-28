@@ -1,0 +1,110 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Adminaddto" >
+
+    
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/e" />
+
+     <EditText
+        android:id="@+id/tt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_below="@+id/spinner1"
+        android:ems="10"
+        android:hint="Enter bus number"
+        android:inputType="text"
+        android:textColorHint="#000080" />
+
+    <EditText
+        android:id="@+id/tt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tt3"
+        android:layout_below="@+id/tt1"
+        android:ems="10"
+        android:hint="Enter bus time"
+        android:inputType="text"
+        android:textColorHint="#000080" />
+
+    <EditText
+        android:id="@+id/tt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tt1"
+        android:layout_below="@+id/tt2"
+        android:ems="10"
+        android:hint="Enter delay time"
+        android:inputType="text"
+        android:textColorHint="#000080" />
+
+    <ImageButton
+        android:id="@+id/addtoh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:onClick="addtoho"
+        android:src="@drawable/hhlj" />
+
+    <TextView
+        android:id="@+id/fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/addtoh"
+        android:text="To MS University"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_toLeftOf="@+id/addtoh"
+        android:text="Add New Bus"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_below="@+id/addtoh"
+        android:text="Select From Area"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/addtoh"
+        android:layout_below="@+id/textView2"
+        android:entries="@array/area" />
+
+    <ImageButton
+        android:id="@+id/addtoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tt3"
+        android:layout_toLeftOf="@+id/addtoh"
+        android:onClick="addtoad"
+        android:src="@drawable/addd" />
+    
+   </RelativeLayout>

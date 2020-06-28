@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollojt"
+        android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="fill_parent"
+            android:layout_height="175dp"
+            android:background="@mipmap/bg3"
+            ></ListView>
+        <EditText
+            android:id="@+id/edt_chat1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@android:id/list"
+            android:layout_toRightOf="@id/edt_chat1"
+            android:background="@color/colorAccent"
+            android:onClick="chat1"
+            android:text="REPLY CHAT 1" />
+
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="fill_parent"
+            android:background="@mipmap/bg1"
+            android:layout_height="175dp"></ListView>
+        <EditText
+            android:id="@+id/edt_chat2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        <Button
+            android:id="@+id/btnAdd2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@android:id/list"
+            android:background="@color/colorAccent"
+            android:onClick="chat2"
+            android:text="REPLY CHAT 2" />
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

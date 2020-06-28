@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Adminadd" >
+    
+     <ImageButton
+        android:id="@+id/abhh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="goho"
+        android:src="@drawable/hh" />
+
+    <Button
+        android:id="@+id/abf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abhh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:onClick="addfrom"
+        android:text="From MS University"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abf"
+        android:layout_alignRight="@+id/abf"
+        android:layout_below="@+id/abf"
+        android:layout_marginTop="38dp"
+        android:onClick="addto"
+        android:text="To Ms University"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abhh"
+        android:layout_centerHorizontal="true"
+        android:text="Add Bus"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/abhh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/abhh"
+        android:src="@drawable/d" />
+
+</RelativeLayout>

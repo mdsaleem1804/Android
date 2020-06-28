@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ag_and_010_shoppingcart"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ag_and_010_shoppingcart.HomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.MainActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.VendorRegistration" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.VendorLogin" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.VendorMainPage" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.AddNewProduct" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.UserRegistration" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.UserLogin" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.UserMainPage" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.ItemFirstFloorHome" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.CatalogActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.ProductDetailsActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.ShoppingCartActivity" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.GpsSettings" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.UserFloor" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.ListVendors" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.ListProducts" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.ListCart" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.ItemSecondFloorHome" >
+        </activity>
+        <activity android:name="com.example.ag_and_010_shoppingcart.EditProduct" >
+        </activity>
+    </application>
+
+</manifest>

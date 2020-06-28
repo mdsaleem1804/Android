@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hellotamila.ah_and_008_product_rating">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/product_rating_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/product_rating_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".NewUser"></activity>
+        <activity android:name=".AddProducts"></activity>
+        <activity android:name=".ListProducts"></activity>
+        <activity android:name=".ListVendors"></activity>
+        <activity android:name=".ListProducts_Old_New_Rate">
+        </activity>
+        <activity android:name=".AdminMainPage"></activity>
+        <activity android:name=".AdminLogin"></activity>
+        <activity android:name=".Webform"></activity>
+    </application>
+
+</manifest>

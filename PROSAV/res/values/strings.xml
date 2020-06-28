@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PROSAV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- HOME PAGE -->
+
+    <string name="hme_btn_doctor"> DOCTOR</string>
+    <string name="hme_btn_patient"> PATIENT</string>
+
+    <!-- DOCTOR LOGIN PAGE -->
+
+    <string name="dlog_hnt_username">UserName</string>
+    <string name="dlog_hnt_password">Password</string>
+    <string name="dlog_btn_login">LOGIN</string>
+    <string name="dlog_txt_signup">SignUp</string>
+    <string name="dlog_txt_forgetpassword">Forget Password?</string>
+
+    <!-- DOCTOR SIGN UP PAGE -->
+
+    <string name="dsignup_txt_header">Doctor Details </string>
+    <string name="dsignup_txt_fullname">FullName</string>
+    <string name="dsignup_txt_mobileno">MobileNo</string>
+    <string name="dsignup_txt_username">UserName</string>
+    <string name="dsignup_txt_password">Password</string>
+    <string name="dsignup_btn_signup">OK</string>
+
+    <!-- DOCTOR FORGET PASSWORD -->
+    <string name="dforgpwd_txt_header">Forget Password?</string>
+    <string name="dforgpwd_hnt_mobileno">MOBILE NO</string>
+    <string name="dforgpwd_btn_getotp">GET OTP</string>
+
+    <!-- DOCTOR FORGET PASSWORD OTP -->
+    <string name="dforgpwdotp_txt_header">Enter OTP Here</string>
+    <string name="dforgpwdotp_edt_hint">-- -- --</string>
+    <string name="dforgpwdotp_btn_confirmotp">CONFIRM</string>
+
+    <!-- DOCTOR STATUS -->
+    <string name="dstatus_txt_header">SET STATUS</string>
+    <string name="dstatus_txt_date">DATE</string>
+    <string name="dstatus_edt_hint">18/04/2016</string>
+    <string name="dstatus_btn_off">OFF</string>
+    <string name="dstatus_btn_cancel">AVAILABLE</string>
+
+    <!-- PATIENT LOGIN PAGE -->
+    <string name="plog_hnt_username">UserName</string>
+    <string name="plog_hnt_password">Password</string>
+    <string name="plog_btn_login">LOGIN</string>
+    <string name="plog_txt_signup">SignUp</string>
+    <string name="plog_txt_forgetpassword">Forget Password?</string>
+
+    <!-- Patient SIGN UP PAGE -->
+    
+    <string name="psignup_txt_header">Patient  Details </string>
+    <string name="psignup_txt_fullname">FullName</string>
+    <string name="psignup_txt_mobileno">MobileNo</string>
+    <string name="psignup_txt_username">UserName</string>
+    <string name="psignup_txt_password">Password</string>
+    <string name="psignup_btn_signup">OK</string>
+    <string name="psignup_hnt_fullname"></string>
+    <string name="psignup_hnt_mobileno"></string>
+    <string name="psignup_hnt_username"></string>
+    <string name="psignup_hnt_password"></string>
+    <!-- SET REMINDER -->
+    <string name="dreminder_txt_doctorname">DOCTOR</string>
+    <string name="dreminder_txt_patientname">PATIENT</string>
+    <string name="dreminder_txt_patientmobno">MOBILE NO</string>
+    <string name="dreminder_txt_patientnextvisdate">NEXT VISIT DATE</string>
+    <string name="dreminder_btn_setreminder">SET</string>
+
+    <!-- PATIENT OTP VERIFICATION -->
+    <string name="potpver_txt_content1">MOBILE NO IS NOT VERIFIED</string>
+    <string name="potpver_edt_hntotp"></string>
+    <string name="potpver_btn_resendcode">ResendCode</string>
+    <string name="potpver_btn_confirmcode">Confirm</string>
+
+
+    <!-- DOCTOR SIGNUP UPDATION -->
+    <string name="dsignup_updation_txt_header">Doctor Profile</string>
+    <string name="dsignup_updation_txt_name">Name</string>
+    <string name="dsignup_updation_txt_age">Age</string>
+    <string name="dsignup_updation_txt_gender">Gender</string>
+    <string name="dsignup_updation_txt_specialist">Specialist</string>
+    <string name="dsignup_updation_txt_mobileno">MobileNo</string>
+    <string name="dsignup_updation_txt_landlineno">LandlineNo</string>
+    <string name="dsignup_updation_txt_email">Email</string>
+    <string name="dsignup_updation_txt_address">Address</string>
+    <string name="dsignup_updation_txt_photo">Photo</string>
+    <string name="dsignup_updation_btn_add">Add</string>
+    <string name="dsignup_updation_hnt_name"></string>
+    <string name="dsignup_updation_hnt_age"></string>
+    <string name="dsignup_updation_hnt_specialist"></string>
+    <string name="dsignup_updation_hnt_mobileno"></string>
+    <string name="dsignup_updation_hnt_landlineno"></string>
+    <string name="dsignup_updation_hnt_email"></string>
+    <string name="dsignup_updation_hnt_address"></string>
+
+    <!-- PATIENT SIGNUP UPDATION -->
+    <string name="psignup_updation_txt_header">Patient Profile</string>
+    <string name="psignup_updation_txt_name">Name</string>
+    <string name="psignup_updation_txt_age">Age</string>
+    <string name="psignup_updation_txt_gender">Gender</string>
+    <string name="psignup_updation_txt_bloodgroup">BloodGroup</string>
+    <string name="psignup_updation_txt_medicalhistory">MedicalHistory</string>
+    <string name="psignup_updation_txt_clinicalnotes">ClinicalNotes</string>
+    <string name="psignup_updation_txt_mobileno">MobileNo</string>
+    <string name="psignup_updation_txt_landlineno">LandlineNo</string>
+    <string name="psignup_updation_txt_email">Email</string>
+    <string name="psignup_updation_txt_address">Address</string>
+    <string name="psignup_updation_txt_photo">Photo</string>
+    <string name="psignup_updation_btn_add">Add</string>
+    <string name="psignup_updation_btn_update">UPDATE</string>
+    
+
+
+    <!-- PATIENT FEEDBACK -->
+    <string name="pfeedback_txt_header">FeedBack</string>
+    <string name="pfeedback_txt_doctorname">DoctorName</string>
+    <string name="pfeedback_txt_consultationdate">Consultation Date</string>
+    <string name="pfeedback_txt_comment">Comment</string>
+    <string name="pfeedback_txt_submit">Submit</string>
+
+    <!-- PATIENT LIST -->
+
+    <string name="ranklabel">"Rank : "</string>
+    <string name="countrylabel">"Country : "</string>
+    <string name="populationlabel">"Population : "</string>
+
+    
+    <!-- Patient FORGET PASSWORD -->
+    <string name="pforgpwd_txt_header">Forget Password?</string>
+    <string name="pforgpwd_hnt_mobileno">MOBILE NO</string>
+    <string name="pforgpwd_btn_getotp">GET OTP</string>
+    
+    
+       <!-- Patient FORGET PASSWORD OTP -->
+    <string name="pforgpwdotp_txt_header">Enter OTP Here</string>
+    <string name="pforgpwdotp_edt_hint">-- -- --</string>
+    <string name="pforgpwdotp_btn_confirmotp">CONFIRM</string>
+</resources>

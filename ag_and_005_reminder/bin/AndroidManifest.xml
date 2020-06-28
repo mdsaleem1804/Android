@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ag_and_005_reminder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ag_and_005_reminder.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ag_and_005_reminder.addexpenses" android:label="Add Expenses"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.reportmain" android:label="Main Report"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.reminder" android:label="Reminder"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.ListReminder" android:label="List All" ></activity>
+        <activity android:name="com.example.ag_and_005_reminder.ListExpenses" android:label="List Expenses"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.ListExpensesByDate"  android:label="List Date"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.ListExpensesByCategory" android:label="List Category"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.ListExpensesByPaymentMode" android:label="List Payment"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.EditExpenses" android:label="Edit Expenses"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.Chart" android:label="Chart"></activity>
+        <activity android:name="com.example.ag_and_005_reminder.AdminLoginPage" android:label="Home Page"></activity>
+    </application>
+
+</manifest>
+

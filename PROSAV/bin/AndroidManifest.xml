@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prosav"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+
+    <application
+        android:name="com.prosav.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.prosav.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.prosav.Doctor_Login" >
+        </activity>
+        <activity android:name="com.prosav.Doctor_SignUp" >
+        </activity>
+        <activity android:name="com.prosav.Doctor_Forget_Password" >
+        </activity>
+        <activity android:name="com.prosav.Doctor_Set_Status" >
+        </activity>
+        <activity android:name="com.prosav.Doctor_SignUp_Updation" >
+        </activity>
+     <activity android:name="com.prosav.Doctor_SignUp_Otp_Verification" >
+        </activity>
+        <activity android:name="com.prosav.Doctor_SetReminder" >
+        </activity>
+        <activity android:name="com.prosav.Doctor_List" >
+        </activity>
+        <activity android:name="com.prosav.Patient_List" >
+        </activity>
+        <activity android:name="com.prosav.Doctor_Login_Succcess" >
+        </activity>
+        <activity android:name="com.prosav.Patient_SignUp_Updation" >
+        </activity>
+        <activity android:name="com.prosav.Patient_Feedback" >
+        </activity>
+        <activity android:name="com.prosav.Patient_Login_Succcess" >
+        </activity>
+        <activity android:name="com.prosav.Patient_Forget_Password" >
+        </activity>
+        <activity android:name="com.prosav.Patient_Login" >
+        </activity>
+        <activity android:name="com.prosav.Patient_SignUp" >
+        </activity>
+        <activity android:name="com.prosav.Patient_SignUp_Otp_Verification" >
+        </activity>
+        <activity android:name="com.prosav.Patent_FeedbackList" >
+        </activity>
+        <activity android:name="com.prosav.AdminLoginSuccess" >
+        </activity>
+        <activity android:name="com.prosav.Admin_Login" >
+        </activity>
+        <activity android:name="com.prosav.Admin_DoctorActivation" >
+        </activity>
+    </application>
+
+</manifest>

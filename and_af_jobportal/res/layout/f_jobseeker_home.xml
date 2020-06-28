@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jobportal2" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="68dp"
+        android:orientation="vertical" 
+        >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gold"
+            android:text="Login"
+            android:onClick="js_login" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/gold"
+            android:text="SignUp"
+            android:onClick="js_signup" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:text="Job Seeker Home Page"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
